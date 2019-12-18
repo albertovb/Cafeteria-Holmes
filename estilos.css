@@ -28,6 +28,31 @@ td{
     font-size: 2em;
     border: 4px black;
 }
+.imagenes{
+    background-color: rgb(223, 176, 58);
+}
+#local{
+
+}
+#img_local{
+width: 700px;
+height: 500px;
+}
+#hombre{
+
+}
+#img_hombre{
+    width: 700px;
+    height: 500px;
+}
+#cafe{
+
+}
+#img_cafe{
+    width: 700px;
+    height: 500px;
+}
+
 /*<-----------------------------------Index-------------------------------------------->*/
 
 /*<-----------------------------------Carta-------------------------------------------->*/
