@@ -1,13 +1,12 @@
 @charset "utf-8";
 /*<------------Estilo general, se aplica a todas las páginas--------------------------->*/
 body{
-    background-color: goldenrod;
+    background-color: rgb(223, 176, 58);
 }
 header{
     background-color: rgb(153, 114, 17);
     padding: 5%;
-    margin: -0.5%;
-    
+    margin: -8px;
 }
 #titulo{
     text-align: center;
@@ -15,7 +14,7 @@ header{
     font-size: 4em;
     letter-spacing: 3px;
     font-family: 'Dancing Script', cursive;
-    background-color: rgb(143, 107, 18);
+    background-color: rgb(172, 134, 41);
 }
 table{
     width: 100%;
@@ -28,30 +27,34 @@ td{
     font-size: 2em;
     border: 4px black;
 }
-.imagenes{
-    background-color: rgb(223, 176, 58);
+a:link{
+    color: rgb(13, 158, 13);
+}
+a:visited{
+    color: rgb(51, 94, 51);
+}
+td:hover{
+    background-color: rgb(175, 175, 175);
+}
+#explicacion{
+    
 }
 #local{
-
-}
-#img_local{
-width: 700px;
-height: 500px;
+    padding: 30px;
 }
 #hombre{
-
-}
-#img_hombre{
-    width: 700px;
-    height: 500px;
+    padding-right: 30px;
+    text-align: right;
 }
 #cafe{
+    padding: 30px;
+}
+.imagenes{
+    width: 600px;
+    height: 400px;
+    border: black solid 1px;
+}
 
-}
-#img_cafe{
-    width: 700px;
-    height: 500px;
-}
 
 /*<-----------------------------------Index-------------------------------------------->*/
 
