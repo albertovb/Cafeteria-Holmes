@@ -54,6 +54,10 @@ td:hover{
     height: 400px;
     border: black solid 1px;
 }
+.carta{
+    border: black solid 3px ;
+    border-radius: 20px;
+}
 
 
 /*<-----------------------------------Index-------------------------------------------->*/

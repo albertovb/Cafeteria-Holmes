@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,72 @@
     <link rel="stylesheet" href="estilos.css">
     <title>Carta</title>
 </head>
+
 <body>
     <header>
-        
+        <h1 id="titulo">Cafetería Holmes</h1>
         <nav>
-
+            <table border="5">
+                <tr>
+                    <td><a href="index.html">Inicio</a></td>
+                    <td><a href="reservas.html">Reservas</a></td>
+                    <td><a href="eventos.html">Eventos</a></td>
+                    <td><a href="carta.html">Carta</a></td>
+                    <td><a href="contacto.html">Contacto</a></td>
+                </tr>
+            </table>
         </nav>
-    </header>
+    </header><br>
     <main>
-        
+
+        <table class="carta">
+            <tr>
+                <td rowspan="3"><img class="carta" src="img/cafe_carta.jpg" height="200px" width="300px"></td>
+                <td colspan="2">Café</td>
+            </tr>
+            <tr>
+                <td>Cortado, largo, expresso, negro, con hielo</td>
+                <td>1'30€</td>
+            </tr>
+            <tr>
+                <td>Capucchino, frapuccino, mocha, latte</td>
+                <td>1'60€</td>
+            </tr>
+        </table>
+        <table class="carta">
+            <tr>
+                <td rowspan="2"><img class="carta" src="img/te_carta.jpg" height="200px" width="300px"></td>
+                <td colspan="2">Infusiones</td>
+            </tr>
+            <tr>
+                <td>Té negro, verde, rojo, manzanilla, anís, romero</td>
+                <td>1'20€</td>
+            </tr>
+        </table>
+        <table class="carta">
+            <tr>
+                <td rowspan="4"><img class="carta" src="img/desayuno_carta.jpg" height="200px" width="300px"></td>
+                <td colspan="2">Desayunos/meriendas</td>
+            </tr>
+            <tr>
+                <td>Café o infusion con bolleria o tostadas</td>
+                <td>2'10€</td>
+            </tr>
+            <tr>
+                <td>Desayuno americano, mediterraneo, griego</td>
+                <td>3'40€</td>
+            </tr>
+            <tr>
+                <td>Bebida con bocadillo de calamares, tortilla, jamón</td>
+                <td>4'20€</td>
+            </tr>
+        </table>
+
+
         <footer>
 
         </footer>
     </main>
 </body>
+
 </html>
