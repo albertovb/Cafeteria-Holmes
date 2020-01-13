@@ -9,16 +9,34 @@
 </head>
 <body>
     <header>
-        <h1>Contacto</h1>
-    </header>
+        <h1 id="titulo">Contacto</h1>
+        <nav>
+            <table border="5">
+                <tr>
+                    <td><a href="index.html">Inicio</a></td>
+                    <td><a href="reservas.html">Reservas</a></td>
+                    <td><a href="eventos.html">Eventos</a></td>
+                    <td><a href="carta.html">Carta</a></td>
+                    <td><a href="contacto.html">Contacto</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header><br>
     <main>
-        <hr>
-        <div>
-            <p>Teléfono: 73926185</p>
-            <p>Email: cafeteria@holmes.com</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6159.13000294449!2d-0.38393917634982827!3d39.479154867940245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f5161d752e5%3A0x3898f5b32af5094!2sEl%20Carmen%2C%20Valencia!5e0!3m2!1ses!2ses!4v1576518306669!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </div>
-
+        <table class="contacto">
+            <tr>
+                <td id="tlf">Teléfono: 73926185</td>
+                <td rowspan="2"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6159.13000294449!2d-0.38393917634982827!3d39.479154867940245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f5161d752e5%3A0x3898f5b32af5094!2sEl%20Carmen%2C%20Valencia!5e0!3m2!1ses!2ses!4v1576518306669!5m2!1ses!2ses" width="450" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
+            </tr>
+            <tr>
+                <td id="email">Email: cafeteria@holmes.com</td>
+                
+            </tr>
+            
+                    
+        </table>
+    <hr>
+        
         <section>
             <p>Nombre:
                 <input type="text" name="nombre" size="30">

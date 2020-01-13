@@ -77,6 +77,35 @@ p{
     float: right;
     right: 20%;
 }
+td.desc{
+    font-size: medium;
+    padding: 2%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+td.inf{
+    font-size: large;
+}
+table.eventos{
+    border: black solid 3px ;
+    border-radius: 20px;
+}
+table.contacto{
+    border: black solid 3px ;
+    border-radius: 20px;
+}
+td#tlf{
+    font-size: large;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+td#email{
+    font-size: large;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 
 
 /*<-----------------------------------Index-------------------------------------------->*/
