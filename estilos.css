@@ -36,9 +36,6 @@ a:visited{
 td:hover{
     background-color: rgb(175, 175, 175);
 }
-#explicacion{
-    
-}
 #local{
     padding: 30px;
 }
@@ -57,6 +54,28 @@ td:hover{
 .carta{
     border: black solid 3px ;
     border-radius: 20px;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 3px;
+    font-family: 'Indie Flower', cursive; 
+}
+h3{
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-family: 'Indie Flower', cursive; 
+}
+p{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+.derecha{
+    position: relative;
+    float: right;
+    right: 20%;
 }
 
 
