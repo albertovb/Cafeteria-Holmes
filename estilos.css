@@ -75,7 +75,23 @@ p{
 .derecha{
     position: relative;
     float: right;
-    right: 20%;
+    right: 10%;
+}
+.izquierda{
+    position: relative;
+    float: left;
+    left: 10%;
+}
+pre{
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+footer{
+    background-color: rgb(22, 21, 21);
+    color: white;
+    padding: 8%;
+    margin: -6px;
+    bottom: 0% 0%;
 }
 
 
