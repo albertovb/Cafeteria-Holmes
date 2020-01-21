@@ -121,7 +121,53 @@ td#email{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/*<-----------------------------------Móvil-------------------------------------------->*/
+@media (orientation:portrait){
+    body{
+        background-color: rgb(114, 69, 27);
+    }
+    header{
+        background-color: rgb(184, 144, 36);
+    }
+    #titulo{
+        text-align: center;
+        text-shadow: rgb(230, 230, 230) 0 0 0 6px;
+        background-color: rgb(83, 51, 20);
+    }
+    table{
+        background-color: black;
+        color: white;
+    }
+    td{
+        border: 4px white;
+    }
+    a:link{
+        color: rgb(158, 131, 13);
+    }
+    a:visited{
+        color: rgb(94, 83, 51);
+    }
+    td.menuP:hover{
+        background-color: white;
+        color: black;
+    }
+    .imagenes{
+        border: white solid 1px;
+    }
+    .carta{
+        border: white solid 3px ;
+    }
+    footer{
+        background-color: rgb(206, 202, 202);
+        color: black;
+    }
+    table.eventos{
+        border: white solid 3px ;
+    }
+    table.contacto{
+        border: white solid 3px ;
+    }
+}
 
 
 
