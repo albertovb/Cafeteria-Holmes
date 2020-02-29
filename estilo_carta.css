@@ -1,3 +1,4 @@
+/* Css para la scroll: */
 html {
     /*Estilos estándar experimentales (Principalmente Firefox)*/
     scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
@@ -94,7 +95,7 @@ nav > a:hover{
     padding: 8%;
     font-family: 'Dancing Script';
 }
-#nom_pag{
+#eslogan{
     color: #fff;
     text-align: left;
     margin-left: 15%;
