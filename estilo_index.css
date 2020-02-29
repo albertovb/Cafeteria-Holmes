@@ -103,6 +103,15 @@ nav > a:hover{
     background-color: rgb(116, 116, 116);
     border: rgb(116, 116, 116);
 }
+#grande{
+    margin-left: 30vh;
+    margin-right: 30vh;
+    margin-bottom: -3vh;
+}
+#pequeña{
+    margin-left: 30vh;
+    margin-right: 30vh;
+}
 /* css y fuente de los textos */
 p{
     font-family: 'Open Sans';
@@ -172,6 +181,7 @@ h2{
     float: left;
     margin-left: 5%;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 #croissant{
     height: 30vh;
@@ -179,6 +189,7 @@ h2{
     text-align: center;
     margin-top: 10%;
     margin-left: 5%;
+    margin-bottom: 10%;
 }
 #tarta{
     height: 30vh;
@@ -187,13 +198,15 @@ h2{
     float: right;
     margin-right: 5%;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 #texto_productos{
     text-align: justify;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 35vh;
     width: 50%;
     word-spacing: -2px;
+    margin-bottom: 5%;
 }
 /* -------------------- */
 /* footer de las paginas */
