@@ -5,77 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilo_carta.css">
     <title>Carta</title>
 </head>
 
 <body>
+
     <header>
-        <h1 id="titulo">Cafetería Holmes</h1>
+        <a href="https://wapps.cat/"><img id="punt" src="img/websalpunt.png" alt="error"></a><a href="https://es.dinahosting.com/"><img id="dina" src="img/dinahosting.png" alt="error"></a>
         <nav>
-            <table border="5">
+            <a href="index.html">Inici</a>
+            <a href="carta.html">Carta</a>
+            <a href="contacto.html">Contacte</a>
+            <a href="eventos.html">Events</a>
+            <a href="reservas.html">Reserves</a>
+        </nav>
+        <h1 id="titulo">Cafetria Holmes</h1>
+        <h1 id="nom_pag">Carta</h1>
+    </header><hr class="hr_gris">
+   
+    <main>
+        <section>
+            <h2>Cafés</h2><hr><br>
+            <img id="cafe_carta" src="img/cafe_carta.jpg" alt="error">
+            <table id="precio_cafe">
                 <tr>
-                    <td class="menuP"><a href="index.html">Inicio</a></td>
-                    <td class="menuP"><a href="reservas.html">Reservas</a></td>
-                    <td class="menuP"><a href="eventos.html">Eventos</a></td>
-                    <td class="menuP"><a href="carta.html">Carta</a></td>
-                    <td class="menuP"><a href="contacto.html">Contacto</a></td>
+                    <td>Tallat, llarg, expresso, negre, amb gel.</td>
+                    <td>1,30€</td>
+                </tr>
+                <tr>
+                    <td>Capucchino, frapuccino, mocha, latte</td>
+                    <td>1'60€</td>
                 </tr>
             </table>
-        </nav>
-    </header><br>
-    <main>
+        </section>
 
-        <table class="carta">
-            <tr>
-                <td rowspan="3"><img class="carta" src="img/cafe_carta.jpg" height="200px" width="300px"></td>
-                <td colspan="2">Café</td>
-            </tr>
-            <tr>
-                <td>Cortado, largo, expresso, negro, con hielo</td>
-                <td>1'30€</td>
-            </tr>
-            <tr>
-                <td>Capucchino, frapuccino, mocha, latte</td>
-                <td>1'60€</td>
-            </tr>
-        </table>
-        <br>
-        <table class="carta">
-            <tr>
-                <td rowspan="2"><img class="carta" src="img/te_carta.jpg" height="200px" width="300px"></td>
-                <td colspan="2">Infusiones</td>
-            </tr>
-            <tr>
-                <td>Té negro, verde, rojo, manzanilla, anís, romero</td>
-                <td>1'20€</td>
-            </tr>
-        </table>
-        <br>
-        <table class="carta">
-            <tr>
-                <td rowspan="4"><img class="carta" src="img/desayuno_carta.jpg" height="200px" width="300px"></td>
-                <td colspan="2">Desayunos/meriendas</td>
-            </tr>
-            <tr>
-                <td>Café o infusion con bolleria o tostadas</td>
-                <td>2'10€</td>
-            </tr>
-            <tr>
-                <td>Desayuno americano, mediterraneo, griego</td>
-                <td>3'40€</td>
-            </tr>
-            <tr>
-                <td>Bebida con bocadillo de calamares, tortilla, jamón</td>
-                <td>4'20€</td>
-            </tr>
-        </table>
+        <section>
+            <h2>Infusions</h2><hr><br>
+            <img id="te_carta" src="img/te_carta.jpg" alt="error">
+            <table id="precio_te">
+                <tr>
+                    <td>Té negre, verd, roig, camamilla, anís, romer</td>
+                    <td>1'20€</td>
+                </tr>       
+            </table>
+        </section>
+
+        <section>
+            <h2>Desdejunis/Berenars</h2><hr><br>
+            <img id="desayuno_carta" src="img/desayuno_carta.jpg" alt="error">
+            <table id="preio_desayuno">
+                <tr>
+                    <td>Café o infusió amb broixeria o torrades</td>
+                    <td>2'10€</td>
+                </tr>  
+                <tr>
+                    <td>Desdejuni americà, mediterrani, grec</td>
+                    <td>3'40€</td>
+                </tr>  
+                <tr>
+                    <td>Beguda amb entrepá de calamars, truïta, pernil </td>
+                    <td>4'20€</td>
+                </tr>   
+            </table>
+        </section>
+        
+        
+
 
         <br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br>
 
         <footer>
-
+            <nav>
+                <a href="https://www.facebook.com/"><img id="enlace_f" src="img/facebook.png" alt="error"></a>
+                <a href="https://www.instagram.com/?hl=es"><img id="enlace_i" src="img/instagram.png" alt="error"></a>
+                <a href="https://twitter.com/?lang=es"><img id="enlace_t" src="img/twitter.png" alt="error"></a>
+                <a href="https://creativecommons.org/licenses/?lang=es_ES"><img id="enlace_c" src="img/licencia.png" alt="error"></a>
+            </nav>
         </footer>
     </main>
 </body>

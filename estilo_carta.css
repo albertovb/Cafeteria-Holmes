@@ -1,0 +1,225 @@
+html {
+    /*Estilos estándar experimentales (Principalmente Firefox)*/
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+}
+html::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+html::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+html::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+html::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+html::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+/* ----------------------- */
+
+/* css para la página en general */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ----------------------- */
+
+/* css para el color de fondo */
+body{
+    background-color: #fff;
+}
+#oscuro{
+    background-color: #f2f2f2;
+}
+/* ------------------------ */
+
+/* Imagenes de dinahosting y webs al punt */
+#dina{
+    float: left;
+    width: 30vh;
+    height: 10vh;
+    padding: 15px;
+}
+#punt{
+    float: left;
+    width: 20vh;
+    height: 20vh;
+    padding: 15px;
+}
+/*--------------------------*/
+
+/* Header de la página */
+header{
+    width: 100%;
+    height: 100vh;    
+    background: #ba8b02;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(45, 98%, 37%, 0.671), hsla(0, 0%, 9%, 0.671)) url(img/computer-2242263_1280.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(45, 98%, 37%, 0.63), rgba(24, 24, 24, 0.603)), url(img/computer-2242263_1280.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: white;
+    font-size: 150%;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: rgb(255, 238, 140);
+}
+#titulo{
+    color: #fff;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 500%;
+    padding: 8%;
+    font-family: 'Dancing Script';
+}
+#nom_pag{
+    color: #fff;
+    text-align: left;
+    margin-left: 15%;
+    font-family: 'Dancing Script';
+    
+}
+/* ---------------------- */
+
+/* hr que separa las sections */
+.hr_gris{
+    height: 5px;
+    background-color: rgb(116, 116, 116);
+    border: rgb(116, 116, 116);
+}
+/* css y fuente de los textos */
+p{
+    font-family: 'Open Sans';
+    word-spacing: 0px;
+    font-size: 1.2em;
+}   
+/* --------------------- */
+
+/* css aplicado a las section para que afecte a la mayoría de la página */
+section{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+/* --------------------- */
+
+h2{
+    font-size: 200%;
+    font-family: 'EB Garamond';
+    text-align: center;
+    padding: 20px;
+}
+/* Css para los cafés de la carta */
+#cafe_carta{
+    height: 50vh;
+    float: left;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    margin-left: 5%;
+    margin-right: auto;
+    border: 1px black solid;
+}
+#precio_carta{
+    text-align: justify;
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-bottom: auto;
+    width: 30%;
+    float: right;
+    word-spacing: -2px;
+}
+/* ---------------------- */
+/* Css para las infusiones de la carta */
+#te_carta{
+    height: 50vh;
+    float: right;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    margin-right: 5%;
+    border: 1px black solid;
+}
+#precio_te{
+    text-align: justify;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: auto;
+    width: 30%;
+    float: left;
+    word-spacing: -2px;
+}
+/* ----------------------- */
+/* css para los desayunos y almuerzos*/
+#desayuno_carta{
+    height: 50vh;
+    float: left;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    margin-right: 5%;
+    border: 1px black solid;
+}
+#precio_desayuno{
+    text-align: justify;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: auto;
+    width: 30%;
+    float: left;
+    word-spacing: -2px;
+}
+/* -------------------- */
+/* footer de las paginas */
+footer{
+    background-image: url(img/cacao_footer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 64vh;
+    width: 100%;
+}
+footer > nav{
+    text-align: right;
+    padding: 30vh 50vh 0 0;
+}
+footer > nav > a{
+    margin-right: 7vh;
+}
+#enlace_f{
+    width: 8vh;
+    height: 8vh;
+}
+#enlace_i{
+    width: 10vh;
+    height: 10vh;
+}
+#enlace_t{
+    width: 8vh;
+    height: 8vh;
+}
+#enlace_c{
+    width: 20vh;
+    height: 8vh;
+}
