@@ -47,29 +47,13 @@ body{
     background-color: #f2f2f2;
 }
 /* ------------------------ */
-
-/* Imagenes de dinahosting y webs al punt */
-#dina{
-    float: left;
-    width: 30vh;
-    height: 10vh;
-    padding: 15px;
-}
-#punt{
-    float: left;
-    width: 20vh;
-    height: 20vh;
-    padding: 15px;
-}
-/*--------------------------*/
-
 /* Header de la página */
 header{
     width: 100%;
     height: 100vh;    
     background: #ba8b02;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(45, 98%, 37%, 0.671), hsla(0, 0%, 9%, 0.671)) url(img/computer-2242263_1280.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(45, 98%, 37%, 0.63), rgba(24, 24, 24, 0.603)), url(img/computer-2242263_1280.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, hsla(45, 98%, 37%, 0.671), hsla(0, 0%, 9%, 0.671)) url(img/coffecarta.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(45, 98%, 37%, 0.63), rgba(24, 24, 24, 0.603)), url(img/coffecarta.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
 }
@@ -103,3 +87,48 @@ nav > a:hover{
     
 }
 /* ---------------------- */
+/* footer */
+footer{
+    background-image: url(img/cacao_footer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 64vh;
+    width: 100%;
+}
+#redes{
+    text-align: center;
+    position: relative;
+    margin-right: 12vh;
+    margin-top: 22vh;
+}
+#concurso{
+    text-align: right;
+}
+footer > nav > #concurso > a{
+    margin-right: 6vh; 
+}
+#enlace_f{
+    width: 8vh;
+    height: 8vh;
+}
+#enlace_i{
+    width: 10vh;
+    height: 10vh;
+}
+#enlace_t{
+    width: 8vh;
+    height: 8vh;
+}
+#enlace_c{
+    width: 20vh;
+    height: 8vh;
+}
+#enlace_d{
+    width: 35vh;
+    height: 10vh;
+}
+#enlace_p{
+    width: 20vh;
+    height: 20vh;
+}

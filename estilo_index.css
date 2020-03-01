@@ -45,19 +45,6 @@ body{
     background-color: #f2f2f2;
 }
 /* ------------------------ */
-/* Imagenes de dinahosting y webs al punt */
-#dina{
-    float: left;
-    width: 30vh;
-    height: 10vh;
-    padding: 15px;
-}
-#punt{
-    float: left;
-    width: 20vh;
-    height: 20vh;
-    padding: 15px;
-}
 /* Header de la página */
 header{
     width: 100%;
@@ -145,7 +132,6 @@ h2{
     border: 1px black solid;
 }
 #texto_historia{
-    text-align: justify;
     margin-top: 10%;
     margin-right: 5%;
     margin-bottom: auto;
@@ -164,7 +150,6 @@ h2{
     border: 1px black solid;
 }
 #texto_contenido{
-    text-align: justify;
     margin-top: 10%;
     margin-left: 5%;
     margin-bottom: auto;
@@ -218,12 +203,17 @@ footer{
     height: 64vh;
     width: 100%;
 }
-footer > nav{
-    text-align: right;
-    padding: 30vh 50vh 0 0;
+#redes{
+    text-align: center;
+    position: relative;
+    margin-right: 12vh;
+    margin-top: 22vh;
 }
-footer > nav > a{
-    margin-right: 7vh;
+#concurso{
+    text-align: right;
+}
+footer > nav > #concurso > a{
+    margin-right: 6vh; 
 }
 #enlace_f{
     width: 8vh;
@@ -240,4 +230,12 @@ footer > nav > a{
 #enlace_c{
     width: 20vh;
     height: 8vh;
+}
+#enlace_d{
+    width: 35vh;
+    height: 10vh;
+}
+#enlace_p{
+    width: 20vh;
+    height: 20vh;
 }
