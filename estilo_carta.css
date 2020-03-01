@@ -144,13 +144,14 @@ h2{
     margin-right: auto;
     border: 1px black solid;
 }
-#precio_carta{
+#precio_cafe{
     text-align: justify;
     margin-top: 10%;
     margin-right: 5%;
+    margin-left: 30%;
     margin-bottom: auto;
     width: 30%;
-    float: right;
+    float: left;
     word-spacing: -2px;
 }
 /* ---------------------- */
@@ -166,9 +167,9 @@ h2{
 #precio_te{
     text-align: justify;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 30%;
     margin-bottom: auto;
-    width: 30%;
+    width: 32%;
     float: left;
     word-spacing: -2px;
 }
@@ -185,9 +186,9 @@ h2{
 #precio_desayuno{
     text-align: justify;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 30%;
     margin-bottom: auto;
-    width: 30%;
+    width: 35%;
     float: left;
     word-spacing: -2px;
 }
