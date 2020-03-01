@@ -135,7 +135,7 @@ h2{
     margin-top: 10%;
     margin-right: 5%;
     margin-bottom: auto;
-    width: 30%;
+    width: 85%;
     float: right;
     word-spacing: -2px;
 }
@@ -153,7 +153,7 @@ h2{
     margin-top: 10%;
     margin-left: 5%;
     margin-bottom: auto;
-    width: 30%;
+    width: 85%;
     float: left;
     word-spacing: -2px;
 }
@@ -188,8 +188,8 @@ h2{
 #texto_productos{
     text-align: justify;
     margin-top: 5%;
-    margin-left: 35vh;
-    width: 50%;
+    margin-left: 5%;
+    width: 85%;
     word-spacing: -2px;
     margin-bottom: 5%;
 }
