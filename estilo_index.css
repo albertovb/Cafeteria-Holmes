@@ -218,10 +218,12 @@ footer > nav > #concurso > a{
 #enlace_f{
     width: 8vh;
     height: 8vh;
+    margin-right: 6vh; 
 }
 #enlace_i{
     width: 10vh;
     height: 10vh;
+    margin-right: 6vh; 
 }
 #enlace_t{
     width: 8vh;

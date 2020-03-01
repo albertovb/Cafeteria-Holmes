@@ -264,7 +264,10 @@ body {
     background: #474544;
     color: #F2F3EB;
   }
-  
+  /* css del mapa */
+  iframe{
+    margin: 10% 30% 10% 25%;
+  }
 /* footer */
 footer{
     background-image: url(img/cacao_footer.jpg);
