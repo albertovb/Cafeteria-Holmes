@@ -155,6 +155,10 @@ input{
 .reserva{
     margin-left: 2%;
 }
+.boton{
+    width: 40%;
+    height: 30%;
+}
 /* footer de las paginas */
 footer{
     background-image: url(img/cacao_footer.jpg);
