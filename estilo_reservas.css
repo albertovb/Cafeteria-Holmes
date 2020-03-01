@@ -126,28 +126,23 @@ h3{
     font-family: 'EB Garamond';
     padding: 20px;
 }
-/* Css para la section de historia */
-#imagen_reservas{
-
-   height: 40vh;
+/* Css para la section de reserva */
+#imagen_reserva{
+   height: 90%;
    float: left;
    margin-top: 10%;
    margin-bottom: 6%;
-   margin-left: 3%;
    margin-right: auto;
    border: 1px black solid;
 }
 #texto_reserva{
-    position: initial;
     text-align: left    ;
-    margin-top: 8%;
-    margin-left: 36%;
+    margin-top: 16%;
+    margin-left: 50%;
     margin-bottom: auto;
     margin-right: 10%;
     width: 55%;
-    float: right;
     word-spacing: -2px;
-    font-size: 120%;
 }
 
 #form{

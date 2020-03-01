@@ -112,7 +112,7 @@ nav > a:hover{
 }
 
 /* css y fuente de los textos */
-p{
+td{
     font-family: 'Open Sans';
     word-spacing: 0px;
     font-size: 1.2em;
@@ -153,12 +153,12 @@ h2{
     width: 55%;
     float: right;
     word-spacing: -2px;
-    font-size: 110%;
 }
 /* ---------------------- */
 /* Css para las infusiones de la carta */
 #te_carta{
     height: 40vh;
+    width: 38%;
     float: left;
     margin-top: 10%;
     margin-bottom: 6%;
@@ -170,18 +170,18 @@ h2{
     position: absolute;
     text-align: left    ;
     margin-top: 8%;
-    margin-left: 36%;
+    margin-left: 35%;
     margin-bottom: auto;
     margin-right: 10%;
     width: 55%;
     float: left;
     word-spacing: -2px;
-    font-size: 110%;
 }
 /* ----------------------- */
 /* css para los desayunos y almuerzos*/
 #desayuno_carta{
     height: 40vh;
+    width: 38%;
     float: left;
     margin-top: 10%;
     margin-bottom: 6%;
@@ -193,13 +193,12 @@ h2{
     position: absolute;
     text-align: left    ;
     margin-top: 8%;
-    margin-left: 36%;
+    margin-left: 35%;
     margin-bottom: auto;
     margin-right: 10%;
     width: 55%;
     float: right;
     word-spacing: -2px;
-    font-size: 110%;
 }
 /* -------------------- */
 
