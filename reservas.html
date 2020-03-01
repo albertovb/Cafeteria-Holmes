@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilo_reservas.css">
     <link rel="shortcut icon" href="img/icono-cafe.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans|EB+Garamond&display=swap" rel="stylesheet">
     <title>Cafeteria Holmes</title>
@@ -12,49 +12,75 @@
 </head>
 <body>
     <header>
-        <h1 id="titulo">Cafetería Holmes</h1>
         <nav>
-            <table  border="5">
-                <tr>
-                    <td class="menuP"><a href="index.html">Inicio</a></td>
-                    <td class="menuP"><a href="reservas.html">Reservas</a></td>
-                    <td class="menuP"><a href="eventos.html">Eventos</a></td>
-                    <td class="menuP"><a href="carta.html">Carta</a></td>
-                    <td class="menuP"><a href="contacto.html">Contacto</a></td>
-                </tr>
-            </table>
+            <a href="index.html">Inici</a>
+            <a href="carta.html">Carta</a>
+            <a href="contacto.html">Contacte</a>
+            <a href="eventos.html">Events</a>
+            <a href="reservas.html">Reserves</a>
         </nav>
-    </header><br>
+        <h1 id="titulo">Reserves</h1>
+        <h1 id="eslogan">Bons amics, bon café, bons temps.</h1>
+    </header>
+    <hr class="hr_gris">
 
     <main>
         <section>
-            <p class="reserva">Nombre y apellidos:
+            <h2>Reserva ací la teva taula!</h2>
+            
+            <hr><br>
+            <img id="imagen_reserva" src="img/woman-2937206_640.jpg" alt="error">
+            <p id="texto_reserva">Disponible la reserva online desde ja!
+                Vols cerebrar el teu aniversari amb els mes volguts, una reunió familiar o 
+                d'empresa? Vine a la Cafeteria Holmes a gaudir d'una tránquilitat i unes especialitats que no 
+                podrás provar a cap altre lloc. <br>
+                Donans les dades nessesàries i amb uns clicks fes la teva reserva!
+            </p>
+        </section>
+        <br>
+
+        <section id="form">
+            <h3>Dades de la Reserva</h3>
+            
+            <p class="reserva">Nom y cognoms:
                 <input type="text" name="nombre" size="45">
             </p>
-            <p class="reserva">Número de teléfono:
+            <br>
+            <p class="reserva">Telèfon:
                 <input type="number" name="numtlf" size="9">
             </p>
-            <p class="reserva">Numero de comensales:
+            <br>
+            <p class="reserva">Nombre de comensals:
                 <input type="number" name="comensales" size="2" max="25">
             </p>
-
-            <p>Elija una fecha:
+            <br>
+            <p class="reserva">Tria una data:
                 <input type="date" name="fecha">
             </p>
-
-            <p class="reserva"> Seleccione la ubicación que prefiera: <br>
+            <br>    
+            <p class="reserva">Selecciona la ubicació que desitge: <br>
                 <input type="radio" name="Ubicacion" value="tt">Terraza Trasera <br>
                 <input type="radio" name="Ubicacion" value="td">Terraza Delantera <br>
                 <input type="radio" name="Ubicacion" value="i">Interior <br>
                 <input type="radio" name="Ubicacion" value="cp">Comedor Privado <small>Máximo 15 personas</small>
              </p>
         </section>
-
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-
+        <br><br>
         <footer>
-
+            <nav>
+                <div id="redes">
+                    <a href="https://www.facebook.com/"><img id="enlace_f" src="img/facebook.png" alt="error"></a>
+                    <a href="https://www.instagram.com/?hl=es"><img id="enlace_i" src="img/instagram.png"
+                            alt="error"></a>
+                    <a href="https://twitter.com/?lang=es"><img id="enlace_t" src="img/twitter.png" alt="error"></a>
+                </div>
+                <div id="concurso">
+                    <a href="https://creativecommons.org/licenses/?lang=es_ES"><img id="enlace_c" src="img/licencia.png"
+                            alt="error"></a>
+                    <a href="https://wapps.cat/"><img id="enlace_p" src="img/websalpunt.png" alt="error"></a>
+                    <a href="https://es.dinahosting.com/"><img id="enlace_d" src="img/dinahosting.png" alt="error"></a>
+                </div>
+            </nav>
         </footer>
     </main>
 </body>
