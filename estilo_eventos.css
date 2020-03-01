@@ -103,6 +103,60 @@ nav > a:hover{
     
 }
 /* ---------------------- */
+/* hr que separa las sections */
+.hr_gris{
+    height: 5px;
+    background-color: rgb(116, 116, 116);
+    border: rgb(116, 116, 116);
+}
+
+/* css y fuente de los textos */
+p{
+    font-family: 'Open Sans';
+    word-spacing: 0px;
+    font-size: 1.2em;
+}   
+
+/* css aplicado a las section para que afecte a la mayoría de la página */
+section{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+/* --------------------- */
+h2{
+    font-size: 200%;
+    font-family: 'EB Garamond';
+    text-align: center;
+    padding: 20px;
+}
+
+#img_eventos{
+    
+    height: 40vh;
+    float: left;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    margin-left: 3%;
+    margin-right: auto;
+    border: 1px black solid;
+}
+
+#texto_eventos{
+    position: absolute;
+    text-align: left    ;
+    margin-top: 8%;
+    margin-left: 30%;
+    margin-bottom: auto;
+    margin-right: 10%;
+    width: 55%;
+    float: right;
+    word-spacing: -2px;
+}
+
+
 /* footer */
 footer{
     background-image: url(img/cacao_footer.jpg);
