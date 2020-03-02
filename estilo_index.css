@@ -123,39 +123,38 @@ h2{
 }
 /* Css para la section de historia */
 #imagen_historia{
+    width: 60%;
     height: 50vh;
     float: left;
     margin-top: 10%;
     margin-bottom: 6%;
-    margin-left: 5%;
     margin-right: auto;
     border: 1px black solid;
 }
 #texto_historia{
     margin-top: 10%;
-    margin-right: 5%;
-    margin-bottom: auto;
-    width: 35%;
+    width: 35vh;
     float: right;
     word-spacing: -2px;
+    margin-left: auto;
 }
 /* ---------------------- */
 /* Css para la section del contenido de la cafetería */
 #imagen_contenido{
+    width: 60%;
     height: 50vh;
     float: right;
     margin-top: 10%;
     margin-bottom: 6%;
-    margin-right: 5%;
+    margin-left: auto;
     border: 1px black solid;
 }
 #texto_contenido{
     margin-top: 10%;
-    margin-left: 5%;
-    margin-bottom: auto;
-    width: 35%;
+    width: 35vh;
     float: left;
     word-spacing: -2px;
+    margin-right: auto;
 }
 /* ----------------------- */
 /* css para la section de los productos */
